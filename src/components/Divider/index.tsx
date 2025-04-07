@@ -1,6 +1,4 @@
-interface DividerProps {}
-
-const Divider = ({}: DividerProps) => {
+const Divider = () => {
   return (
     <div
       style={{

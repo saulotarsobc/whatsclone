@@ -10,8 +10,6 @@ import Divider from "../Divider";
 import ListItemContainer from "../ListItemContainer";
 import style from "./style.module.css";
 
-interface NavBarProps {}
-
 const Items = {
   nav: [
     {
@@ -35,7 +33,7 @@ const Items = {
   ],
 };
 
-const NavBar = ({}: NavBarProps) => {
+const NavBar = () => {
   return (
     <div className={style.navBar}>
       <div>
