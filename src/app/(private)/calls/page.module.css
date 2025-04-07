@@ -1,4 +1,4 @@
 .page {
-  background-color: #fefefe;
-  padding: 10px;
+  display: flex;
+  background-color: #f3f3f3;
 }

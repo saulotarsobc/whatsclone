@@ -1,0 +1,5 @@
+.ContentContainer {
+  width: calc(100vw - 58px - 300px);
+  background-color: #fcfcfc;
+  padding: 10px;
+}

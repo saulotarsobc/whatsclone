@@ -1,9 +1,4 @@
 .Layout {
   display: flex;
   flex-direction: row;
-
-  main {
-    width: calc(100vw - 58px);
-    height: 100vh;
-  }
 }
