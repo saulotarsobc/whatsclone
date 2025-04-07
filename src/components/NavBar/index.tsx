@@ -1,39 +1,15 @@
-import {
-  IconArchive,
-  IconMessage,
-  IconPhone,
-  IconSettings,
-  IconStar,
-} from "@tabler/icons-react";
+import { NavBarItem } from "@/interfaces/NavBarItem";
+import { IconSettings } from "@tabler/icons-react";
 import Link from "next/link";
 import Divider from "../Divider";
 import ListItemContainer from "../ListItemContainer";
 import style from "./style.module.css";
 
-const Items = {
-  nav: [
-    {
-      href: "/chats",
-      icon: <IconMessage size={20} />,
-    },
-    {
-      href: "/calls",
-      icon: <IconPhone size={20} />,
-    },
-  ],
-  sub: [
-    {
-      href: "/favorites",
-      icon: <IconStar size={20} />,
-    },
-    {
-      href: "/archives",
-      icon: <IconArchive size={20} />,
-    },
-  ],
-};
+interface NavBarProps {
+  Items: NavBarItem;
+}
 
-const NavBar = () => {
+const NavBar = ({ Items }: NavBarProps) => {
   return (
     <div className={style.navBar}>
       <div>
