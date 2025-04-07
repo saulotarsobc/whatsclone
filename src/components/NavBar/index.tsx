@@ -14,21 +14,21 @@ const Items = {
   nav: [
     {
       href: "/chats",
-      icon: <IconMessage />,
+      icon: <IconMessage size={20} />,
     },
     {
       href: "/calls",
-      icon: <IconPhone />,
+      icon: <IconPhone size={20} />,
     },
   ],
   sub: [
     {
       href: "/favorites",
-      icon: <IconStar />,
+      icon: <IconStar size={20} />,
     },
     {
       href: "/archives",
-      icon: <IconArchive />,
+      icon: <IconArchive size={20} />,
     },
   ],
 };
@@ -55,7 +55,7 @@ const NavBar = () => {
         <Divider />
 
         <ListItemContainer>
-          <IconSettings />
+          <IconSettings size={20} />
         </ListItemContainer>
       </div>
     </div>
