@@ -2,11 +2,8 @@
 import { ICON_SIZE } from "@/constants";
 import { IconEdit, IconLabel, IconMenu4 } from "@tabler/icons-react";
 import style from "./style.module.css";
-interface ChatHeaderProps {
-  onSearch: () => void;
-}
 
-const ChatHeader = ({}: ChatHeaderProps) => {
+const ChatHeader = () => {
   return (
     <div className={style.ChatHeader}>
       <h1 className={style.Title}>Conversas</h1>
