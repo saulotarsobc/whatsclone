@@ -1,7 +1,9 @@
 "use client";
 import style from "./style.module.css";
 interface ChatListItemProps {
-  chat: any;
+  chat: {
+    name: string;
+  };
 }
 
 const ChatListItem = ({ chat }: ChatListItemProps) => {

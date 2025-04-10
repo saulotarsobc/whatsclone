@@ -6,7 +6,7 @@ interface ChatHeaderProps {
   onSearch: () => void;
 }
 
-const ChatHeader = ({ onSearch }: ChatHeaderProps) => {
+const ChatHeader = ({}: ChatHeaderProps) => {
   return (
     <div className={style.ChatHeader}>
       <h1 className={style.Title}>Conversas</h1>
