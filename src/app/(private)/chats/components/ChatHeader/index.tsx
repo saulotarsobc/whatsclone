@@ -9,18 +9,18 @@ interface ChatHeaderProps {
 const ChatHeader = ({ onSearch }: ChatHeaderProps) => {
   return (
     <div className={style.ChatHeader}>
-      <h1>Conversas</h1>
+      <h1 className={style.Title}>Conversas</h1>
 
       <div className={style.actions}>
-        <div>
+        <div className={style.Icons}>
           <IconEdit size={ICON_SIZE} />
         </div>
 
-        <div>
+        <div className={style.Icons}>
           <IconLabel size={ICON_SIZE} />
         </div>
 
-        <div>
+        <div className={style.Icons}>
           <IconMenu4 size={ICON_SIZE} />
         </div>
       </div>

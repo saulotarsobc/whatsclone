@@ -7,7 +7,7 @@ interface ChatListItemProps {
 const ChatListItem = ({ chat }: ChatListItemProps) => {
   return (
     <div className={style.ChatListItem}>
-      <div>{chat.name}</div>
+      <div className={style.ChatListItem__Item}>{chat.name}</div>
     </div>
   );
 };
