@@ -1,13 +1,17 @@
 .ChatSearch {
   padding: 0 10px;
   height: 30px;
-  border: 1px solid #00000016;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 7px;
   border-radius: 5px;
-  border-bottom: 2px solid #1daa61;
+  border: 1px solid #00000016;
+
+  &:focus-within {
+    border: 1px solid #00000016;
+    border-bottom: 2px solid #1daa61;
+  }
 
   input {
     width: 100%;
