@@ -6,13 +6,29 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 10px;
 
   h1 {
+    padding-left: 10px;
     font-size: 18px;
   }
 }
 
 .actions {
-  background: #dedede;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 41px;
+    border-radius: 5px;
+    color: #494949;
+    &:hover {
+      cursor: pointer;
+      background-color: #ededed;
+    }
+  }
 }

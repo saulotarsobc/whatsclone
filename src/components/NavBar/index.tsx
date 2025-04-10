@@ -2,7 +2,7 @@ import { NavBarItem } from "@/interfaces/NavBarItem";
 import { IconSettings } from "@tabler/icons-react";
 import Link from "next/link";
 import Divider from "../Divider";
-import ListItemContainer from "../ListItemContainer";
+import ListItemContainer from "./ListItemContainer";
 import style from "./style.module.css";
 
 interface NavBarProps {
