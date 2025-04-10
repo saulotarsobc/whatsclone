@@ -1,0 +1,10 @@
+.AsideContainer {
+  background-color: #fefefe;
+  width: 323px;
+  height: 100vh;
+  padding: 10px;
+  border: 1px solid #0000001a;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

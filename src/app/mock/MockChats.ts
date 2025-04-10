@@ -5,7 +5,7 @@ export const MockChats = [
     created_at: "2025-04-07T14:22:00",
     message: "nova track pronta 🔥",
     read: true,
-    avatar: "https://example.com/avatars/luna_blaze.jpg",
+    avatar: null,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const MockChats = [
     created_at: "2025-04-03T09:10:00",
     message: 'Você reagiu com 🎧 a: "set ao vivo de ontem"',
     read: true,
-    avatar: "https://example.com/avatars/dj_orion.jpg",
+    avatar: null,
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const MockChats = [
     created_at: "2025-04-07T20:11:00",
     message: "ensaios em Salvador 🎤",
     read: false,
-    avatar: "https://example.com/avatars/reina_luz.jpg",
+    avatar: null,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const MockChats = [
     created_at: "2025-04-07T19:40:00",
     message: "chegando no estúdio",
     read: true,
-    avatar: "https://example.com/avatars/johnny_velvet.jpg",
+    avatar: null,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const MockChats = [
     created_at: "2025-04-07T18:55:00",
     message: "show confirmado em SP 💣",
     read: false,
-    avatar: "https://example.com/avatars/mc_trovao.jpg",
+    avatar: null,
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const MockChats = [
     created_at: "2025-04-07T17:30:00",
     message: 'Você reagiu com 🌻 a: "demo acústica nova"',
     read: true,
-    avatar: "https://example.com/avatars/sol_violeta.jpg",
+    avatar: null,
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const MockChats = [
     created_at: "2025-04-07T16:44:00",
     message: "letra nova no grupo",
     read: true,
-    avatar: "https://example.com/avatars/kali_ventura.jpg",
+    avatar: null,
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const MockChats = [
     created_at: "2025-04-07T15:27:00",
     message: "Você: bora gravar amanhã?",
     read: true,
-    avatar: "https://example.com/avatars/duda_flame.jpg",
+    avatar: null,
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const MockChats = [
     created_at: "2025-04-07T13:11:00",
     message: 'Você reagiu com 👏 a: "ref grave mixado"',
     read: true,
-    avatar: "https://example.com/avatars/leo_harmonia.jpg",
+    avatar: null,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const MockChats = [
     created_at: "2025-04-07T10:50:00",
     message: "link do clipe enviado 🎬",
     read: true,
-    avatar: "https://example.com/avatars/nay_groove.jpg",
+    avatar: null,
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const MockChats = [
     created_at: "2025-04-07T09:33:00",
     message: "capa do álbum ficou pronta 🎨",
     read: false,
-    avatar: "https://example.com/avatars/taina_beats.jpg",
+    avatar: null,
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const MockChats = [
     created_at: "2025-04-07T08:12:00",
     message: "ouviu o feat já?",
     read: true,
-    avatar: "https://example.com/avatars/bento_flow.jpg",
+    avatar: null,
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const MockChats = [
     created_at: "2025-04-07T21:10:00",
     message: "passa no camarim depois do show ✨",
     read: false,
-    avatar: "https://example.com/avatars/yas_star.jpg",
+    avatar: null,
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const MockChats = [
     created_at: "2025-04-07T22:02:00",
     message: "beat novo no dropbox",
     read: true,
-    avatar: "https://example.com/avatars/zeca_noise.jpg",
+    avatar: null,
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const MockChats = [
     created_at: "2025-04-07T19:22:00",
     message: "Você: bora meditar antes da sessão?",
     read: true,
-    avatar: "https://example.com/avatars/clara_zen.jpg",
+    avatar: null,
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const MockChats = [
     created_at: "2025-04-07T11:47:00",
     message: "voz guia tá no drive 🎤",
     read: true,
-    avatar: "https://example.com/avatars/nilo_vox.jpg",
+    avatar: null,
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const MockChats = [
     created_at: "2025-04-07T00:33:00",
     message: "loop de synth enviado 🌀",
     read: false,
-    avatar: "https://example.com/avatars/maya_synth.jpg",
+    avatar: null,
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const MockChats = [
     created_at: "2025-04-07T05:55:00",
     message: "acorde final ficou top 🔑",
     read: true,
-    avatar: "https://example.com/avatars/bruno_keys.jpg",
+    avatar: null,
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const MockChats = [
     created_at: "2025-04-07T17:17:00",
     message: "feat com o DJ pronto 🔥",
     read: true,
-    avatar: "https://example.com/avatars/lia_trap.jpg",
+    avatar: null,
   },
   {
     id: 20,
@@ -157,6 +157,6 @@ export const MockChats = [
     created_at: "2025-04-07T06:30:00",
     message: "mix da faixa 3 finalizada 🎧",
     read: false,
-    avatar: "https://example.com/avatars/viktor_beats.jpg",
+    avatar: null,
   },
 ] as const;

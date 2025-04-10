@@ -1,24 +1,19 @@
 import { MockChats } from "@/app/mock/MockChats";
+import AsideContainer from "@/components/AsideContainer";
+import ChatListItem from "@/components/ChatListItem";
 import ContentContainer from "@/components/ContentContainer";
-import Side from "@/components/Side";
 import style from "./page.module.css";
 
 const Page = () => {
   return (
-    <main className={style.page}>
-      <Side>
-        <div style={{ height: "50px" }}>Header</div>
+    <main className={style.chats}>
+      <AsideContainer>
         <div>
           {MockChats.map((chat) => (
-            <div key={chat.id}>
-              <p>{chat.created_at}</p>
-              <p>{chat.name}</p>
-              <p>{chat.message}</p>
-              <hr />
-            </div>
+            <ChatListItem key={chat.id} chat={chat} />
           ))}
         </div>
-      </Side>
+      </AsideContainer>
       <ContentContainer>
         <p>conteudo do chat</p>
       </ContentContainer>

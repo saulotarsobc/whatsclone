@@ -1,5 +1,4 @@
 .ContentContainer {
-  width: calc(100vw - 58px - 300px);
+  max-width: calc(100vw - 48px - 323px);
   background-color: #fcfcfc;
-  padding: 10px;
 }

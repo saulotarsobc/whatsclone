@@ -1,5 +1,5 @@
+import Side from "@/components/AsideContainer";
 import ContentContainer from "@/components/ContentContainer";
-import Side from "@/components/Side";
 import style from "./page.module.css";
 
 const Page = () => {
