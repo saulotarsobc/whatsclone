@@ -1,3 +1,4 @@
+"use client";
 import Side from "@/components/AsideContainer";
 import ContentContainer from "@/components/ContentContainer";
 import style from "./page.module.css";
