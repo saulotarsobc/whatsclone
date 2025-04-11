@@ -55,31 +55,31 @@ const formatMessageDate = (dateString?: string) => {
 
   const messageDate = new Date(dateString);
   const now = new Date();
-  const diffTime = Math.abs(now.getTime() - messageDate.getTime());
+
+  const normalizedNow = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const normalizedMessageDate = new Date(messageDate.getFullYear(), messageDate.getMonth(), messageDate.getDate());
+
+  const diffTime = normalizedNow.getTime() - normalizedMessageDate.getTime();
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-  // Today
   if (diffDays === 0) {
     return messageDate.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
   }
 
-  // Yesterday
   if (diffDays === 1) {
     return 'Ontem';
   }
 
-  // Less than 7 days
   if (diffDays < 7) {
     return messageDate.toLocaleDateString('pt-BR', { weekday: 'long' });
   }
 
-  // More than 7 days
   return messageDate.toLocaleString('pt-BR', {
     day: '2-digit',
     month: '2-digit',
     year: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit'
+    // hour: '2-digit',
+    // minute: '2-digit'
   });
 };
 
