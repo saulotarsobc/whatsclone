@@ -1,6 +1,22 @@
 export const MockChats = [
   {
     id: 1,
+    name: "John Doe",
+    lastMessage: "Hey, how are you?",
+    timestamp: "10:30",
+    unreadCount: 2,
+    avatar: null,
+  },
+  {
+    id: 2,
+    name: "Alice Smith",
+    lastMessage: "See you tomorrow!",
+    timestamp: "09:15",
+    unreadCount: 1,
+    avatar: null,
+  },
+  {
+    id: 3,
     name: "Luna Blaze",
     created_at: "2025-04-07T14:22:00",
     message: "nova track pronta 🔥",
@@ -8,7 +24,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 2,
+    id: 4,
     name: "DJ Orion",
     created_at: "2025-04-03T09:10:00",
     message: 'Você reagiu com 🎧 a: "set ao vivo de ontem"',
@@ -16,7 +32,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 3,
+    id: 5,
     name: "Reina Luz",
     created_at: "2025-04-07T20:11:00",
     message: "ensaios em Salvador 🎤",
@@ -24,7 +40,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 4,
+    id: 6,
     name: "Johnny Velvet",
     created_at: "2025-04-07T19:40:00",
     message: "chegando no estúdio",
@@ -32,7 +48,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 5,
+    id: 7,
     name: "MC Trovão",
     created_at: "2025-04-07T18:55:00",
     message: "show confirmado em SP 💣",
@@ -40,7 +56,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 6,
+    id: 8,
     name: "Sol Violeta",
     created_at: "2025-04-07T17:30:00",
     message: 'Você reagiu com 🌻 a: "demo acústica nova"',
@@ -48,7 +64,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 7,
+    id: 9,
     name: "Kali Ventura",
     created_at: "2025-04-07T16:44:00",
     message: "letra nova no grupo",
@@ -56,7 +72,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 8,
+    id: 10,
     name: "Duda Flame",
     created_at: "2025-04-07T15:27:00",
     message: "Você: bora gravar amanhã?",
@@ -64,7 +80,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 9,
+    id: 11,
     name: "Leo Harmonia",
     created_at: "2025-04-07T13:11:00",
     message: 'Você reagiu com 👏 a: "ref grave mixado"',
@@ -72,7 +88,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 10,
+    id: 12,
     name: "Nay Groove",
     created_at: "2025-04-07T10:50:00",
     message: "link do clipe enviado 🎬",
@@ -80,7 +96,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 11,
+    id: 13,
     name: "Tainá Beats",
     created_at: "2025-04-07T09:33:00",
     message: "capa do álbum ficou pronta 🎨",
@@ -88,7 +104,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 12,
+    id: 14,
     name: "Bento Flow",
     created_at: "2025-04-07T08:12:00",
     message: "ouviu o feat já?",
@@ -96,7 +112,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 13,
+    id: 15,
     name: "Yas Star",
     created_at: "2025-04-07T21:10:00",
     message: "passa no camarim depois do show ✨",
@@ -104,7 +120,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 14,
+    id: 16,
     name: "Zeca Noise",
     created_at: "2025-04-07T22:02:00",
     message: "beat novo no dropbox",
@@ -112,7 +128,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 15,
+    id: 17,
     name: "Clara Zen",
     created_at: "2025-04-07T19:22:00",
     message: "Você: bora meditar antes da sessão?",
@@ -120,7 +136,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 16,
+    id: 18,
     name: "Nilo Vox",
     created_at: "2025-04-07T11:47:00",
     message: "voz guia tá no drive 🎤",
@@ -128,7 +144,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 17,
+    id: 19,
     name: "Maya Synth",
     created_at: "2025-04-07T00:33:00",
     message: "loop de synth enviado 🌀",
@@ -136,7 +152,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 18,
+    id: 20,
     name: "Bruno Keys",
     created_at: "2025-04-07T05:55:00",
     message: "acorde final ficou top 🔑",
@@ -144,7 +160,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 19,
+    id: 21,
     name: "Lia Trap",
     created_at: "2025-04-07T17:17:00",
     message: "feat com o DJ pronto 🔥",
@@ -152,7 +168,7 @@ export const MockChats = [
     avatar: null,
   },
   {
-    id: 20,
+    id: 22,
     name: "Viktor Beats",
     created_at: "2025-04-07T06:30:00",
     message: "mix da faixa 3 finalizada 🎧",
