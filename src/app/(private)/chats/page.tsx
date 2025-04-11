@@ -2,9 +2,10 @@
 import { MockChats } from "@/app/mock/MockChats";
 import AsideContainer from "@/components/AsideContainer";
 import ContentContainer from "@/components/ContentContainer";
-import ChatSearch from "./ChatSearch/ChatSearch";
 import ChatHeader from "./components/ChatHeader";
+import ChatListContainer from "./components/ChatListContainer/ChatListContainer";
 import ChatListItem from "./components/ChatListItem";
+import ChatSearch from "./components/ChatSearch/ChatSearch";
 import style from "./page.module.css";
 
 const Page = () => {
@@ -13,11 +14,11 @@ const Page = () => {
       <AsideContainer>
         <ChatHeader />
         <ChatSearch onSearch={() => {}} />
-        <div>
+        <ChatListContainer>
           {MockChats.map((chat) => (
             <ChatListItem key={chat.id} chat={chat} />
           ))}
-        </div>
+        </ChatListContainer>
       </AsideContainer>
 
       <ContentContainer>
