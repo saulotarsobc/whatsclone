@@ -22,20 +22,22 @@ const ChatListItem = ({ chat }: ChatListItemProps) => {
     <div className={style.ChatListItem}>
       <div className={style.ChatListItem__Item}>
         <div className={style.avatar}>
-          <Image 
-            src={chat.avatar || defaultAvatar.src} 
-            alt={chat.name} 
-            width={49} 
-            height={49} 
+          <Image
+            src={chat.avatar || defaultAvatar.src}
+            alt={chat.name}
+            width={49}
+            height={49}
           />
         </div>
-        
+
         <div className={style.content}>
           <div className={style.headerRow}>
             <span className={style.name}>{chat.name}</span>
-            <span className={style.timestamp}>{chat.timestamp || chat.created_at}</span>
+            <span className={style.timestamp}>
+              {formatMessageDate(chat.timestamp || chat.created_at)}
+            </span>
           </div>
-          
+
           <div className={style.messageRow}>
             <span className={style.message}>{chat.lastMessage || chat.message}</span>
             {!chat.read && (
@@ -46,6 +48,39 @@ const ChatListItem = ({ chat }: ChatListItemProps) => {
       </div>
     </div>
   );
+};
+
+const formatMessageDate = (dateString?: string) => {
+  if (!dateString) return '';
+
+  const messageDate = new Date(dateString);
+  const now = new Date();
+  const diffTime = Math.abs(now.getTime() - messageDate.getTime());
+  const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+  // Today
+  if (diffDays === 0) {
+    return messageDate.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+  }
+
+  // Yesterday
+  if (diffDays === 1) {
+    return 'Ontem';
+  }
+
+  // Less than 7 days
+  if (diffDays < 7) {
+    return messageDate.toLocaleDateString('pt-BR', { weekday: 'long' });
+  }
+
+  // More than 7 days
+  return messageDate.toLocaleString('pt-BR', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
 };
 
 export default ChatListItem;
