@@ -1,34 +1,34 @@
 .ChatHeader {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  padding: 10px;
+}
 
-  .Title {
-    padding-left: 10px;
-    font-size: 18px;
-  }
+.Title {
+  padding-left: 10px;
+  font-size: 18px;
 }
 
 .actions {
   display: flex;
   flex-direction: row;
-  gap: 3px;
+  gap: 3px; 
+}
 
-  .Icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 41px;
-    height: 41px;
-    border-radius: 5px;
-    color: #494949;
-    &:hover {
-      cursor: pointer;
-      background-color: #ededed;
-    }
+.Icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 5px;
+  color: #494949;
+  &:hover {
+    cursor: pointer;
+    background-color: #ededed;
   }
 }
