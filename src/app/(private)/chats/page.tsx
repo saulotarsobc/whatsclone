@@ -19,6 +19,7 @@ const Page = () => {
           ))}
         </div>
       </AsideContainer>
+
       <ContentContainer>
         <p>conteudo do chat</p>
       </ContentContainer>
