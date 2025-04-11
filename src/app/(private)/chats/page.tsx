@@ -5,7 +5,7 @@ import { MockChats } from "@/mock/MockChats";
 import ChatHeader from "./components/ChatHeader";
 import ChatListContainer from "./components/ChatListContainer/ChatListContainer";
 import ChatListItem from "./components/ChatListItem";
-import ChatSearch from "./components/ChatSearch/ChatSearch";
+import ChatSearchContainer from "./components/ChatSearchContainer/ChatSearchContainer";
 import style from "./page.module.css";
 
 const Page = () => {
@@ -13,7 +13,7 @@ const Page = () => {
     <main className={style.chats}>
       <AsideContainer>
         <ChatHeader />
-        <ChatSearch onSearch={() => {}} />
+        <ChatSearchContainer onSearch={() => { }} />
         <ChatListContainer>
           {MockChats.map((chat) => (
             <ChatListItem key={chat.id} chat={chat} />

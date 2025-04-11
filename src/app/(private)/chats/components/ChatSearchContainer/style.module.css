@@ -1,3 +1,8 @@
+.ChatSearchContainer{
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
 .ChatSearch {
   padding: 0 10px;
   height: 30px;
