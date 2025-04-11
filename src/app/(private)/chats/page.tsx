@@ -1,7 +1,7 @@
 "use client";
-import { MockChats } from "@/app/mock/MockChats";
 import AsideContainer from "@/components/AsideContainer";
 import ContentContainer from "@/components/ContentContainer";
+import { MockChats } from "@/mock/MockChats";
 import ChatHeader from "./components/ChatHeader";
 import ChatListContainer from "./components/ChatListContainer/ChatListContainer";
 import ChatListItem from "./components/ChatListItem";
