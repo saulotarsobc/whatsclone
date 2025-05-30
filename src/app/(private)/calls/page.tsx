@@ -1,6 +1,6 @@
 "use client";
-import Side from "@/components/AsideContainer";
-import ContentContainer from "@/components/ContentContainer";
+import Side from "@/components/AsideContainer/AsideContainer";
+import ContentContainer from "@/components/ContentContainer/ContentContainer";
 import style from "./page.module.css";
 
 const Page = () => {
