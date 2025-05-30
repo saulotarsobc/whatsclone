@@ -1,0 +1,13 @@
+.dividerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 3px 0;
+}
+
+.dividerLine {
+  height: 1px;
+  background-color: #00000016;
+  width: 80%;
+}
