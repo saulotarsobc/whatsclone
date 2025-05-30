@@ -1,7 +1,8 @@
-
 # WhatsClone
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+![banner](demo/banner.png)
 
 ## Getting Started
 
@@ -22,6 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Planned Improvements
 
 ### Authentication & Security
+
 - Implement proper authentication system using NextAuth.js
 - Add login/register forms with validation
 - Implement session management
@@ -30,18 +32,21 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Add input sanitization
 
 ### State Management & Data Flow
+
 - Add Redux Toolkit or Zustand for state management
 - Implement real-time WebSocket communication
 - Create proper API structure
 - Add API route handlers
 
 ### TypeScript & Code Quality
+
 - Enhanced TypeScript interfaces
 - Improved type safety across components
 - Better error handling
 - Component library with style guide
 
 ### UI/UX Improvements
+
 - Implement responsive design
 - Add dark mode support
 - Create theme system
@@ -49,24 +54,28 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Add loading states and error boundaries
 
 ### Testing & Quality Assurance
+
 - Unit tests with Jest
 - E2E tests with Cypress/Playwright
 - API integration tests
 - Performance testing
 
 ### Performance Optimization
+
 - Image optimization
 - Component lazy loading
 - Bundle size optimization
 - Caching strategies
 
 ### DevOps & Deployment
+
 - Complete Docker configuration
 - Multi-stage build optimization
 - Production deployment pipeline
 - Environment management
 
 ### Core Features
+
 - Real-time chat functionality
 - File sharing capabilities
 - User profiles
@@ -75,6 +84,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Message reactions and replies
 
 ## Project Structure
+
 ```
 src/
 ├── app/          # Next.js app router
